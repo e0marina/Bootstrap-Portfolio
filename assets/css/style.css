@@ -40,7 +40,6 @@
   color: #999;
   text-decoration: none;
   /*I'm not sure how to make the border not extend to the top */
- 
 }
 
 .nav-item:first-child {
@@ -48,6 +47,7 @@
 }
 
 #footer-cont {
+  z-index: 98;
   width: 100%;
   overflow: auto;
   position: fixed;
@@ -56,7 +56,6 @@
   border-top: 2px solid #cccccc;
   top: 91%;
   height: 10%;
-
 }
 
 #copyright {
@@ -71,7 +70,7 @@
   top: 10px;
   min-height: 533px;
   height: auto;
-  border: 2px solid #cccccc;
+  z-index: 1;
 }
 
 h3 {
@@ -82,6 +81,14 @@ h3 {
   margin-top: 20px;
   border-bottom: 3px solid #cccccc;
   padding: 9px;
+}
+
+#card {
+  /*z-index: 2;*/
+}
+
+#media-obj {
+  /*z-index: 3;*/
 }
 
 @media screen and (min-width: 400px) {
@@ -108,14 +115,15 @@ h3 {
     padding-bottom: 4%;
   }
 
+  #media-obj {
+    visibility: collapse;
+  }
 }
-
-
 
 @media screen and (min-width: 768px) {
   /* header */
 
-  #header-cont{
+  #header-cont {
     height: auto;
     padding-left: 20px;
   }
@@ -135,14 +143,36 @@ h3 {
   #navigation {
     font-size: 89%;
     line-height: 20px;
-    font-weight: lighter;
     padding-right: 4%;
     padding-top: 2%;
   }
 
   #copyright {
     padding-top: 3%;
-    
+  }
+
+  #card {
+    display: none;
+  }
+
+  #media-obj {
+    visibility: visible;
+  }
+
+  #main-cont {
+    border: 2px solid #cccccc;
+  }
+
+  #image768 {
+    width: 50%;
+    height: auto;
+  }
+
+  .media-body {
+    line-height: 2em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
   }
 }
 
@@ -163,7 +193,6 @@ h3 {
   }
   #copyright {
     padding-top: 2%;
-    
   }
 }
 
