@@ -40,16 +40,28 @@
   color: #999;
   text-decoration: none;
   /*I'm not sure how to make the border not extend to the top */
-  border-top: 1px solid #ffffff;
+ 
 }
 
 .nav-item:first-child {
   border-left: 0 none;
 }
 
-@media screen and (min-width: 576px) {
+#footer-cont {
+  width: 100%;
+  overflow: auto;
+  position: fixed;
+  color: #ffffff;
+  background: #4aaaa5;
+  border-top: 2px solid #cccccc;
+  top: 91%;
+  height: 10%;
+
+}
+
+@media screen and (min-width: 400px) {
   /* header */
-  .container-fluid {
+  #header-cont {
     width: 100%;
     padding: 0px;
   }
@@ -67,9 +79,7 @@
   }
 
   #navigation {
-    width: 100%;
-    text-align: center;
-    padding-right: 20%;
+    padding-right: 11%;
     padding-bottom: 4%;
   }
 }
@@ -77,7 +87,7 @@
 @media screen and (min-width: 768px) {
   /* header */
 
-  .container-fluid {
+  #header-cont{
     height: auto;
     padding-left: 20px;
   }
@@ -104,10 +114,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .container-fluid {
-    max-width: 780px;
-  }
-
   /* header */
   #masthead {
     position: relative;
@@ -115,30 +121,28 @@
 
   #logo {
     font-size: 150%;
-    width: 30%;
+    width: 54%;
   }
 
   #navigation {
-    font-size: 80%;
+    font-size: 100%;
+    font-weight: 400;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container-fluid {
-    max-width: 780px;
-  }
-
   /* header */
   #masthead {
     position: relative;
   }
 
   #logo {
-    font-size: 150%;
-    width: 58%;
+    font-size: 167%;
+    width: 48%;
   }
 
   #navigation {
-    font-size: 80%;
+    font-size: 124%;
+    padding-right: 6%;
   }
 }
