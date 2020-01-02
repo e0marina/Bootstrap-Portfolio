@@ -65,6 +65,25 @@
   padding-left: 42%;
 }
 
+#main-cont {
+  width: 90%;
+  position: relative;
+  top: 10px;
+  min-height: 533px;
+  height: auto;
+  border: 2px solid #cccccc;
+}
+
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 3px solid #cccccc;
+  padding: 9px;
+}
+
 @media screen and (min-width: 400px) {
   /* header */
   #header-cont {
@@ -88,7 +107,10 @@
     padding-right: 18%;
     padding-bottom: 4%;
   }
+
 }
+
+
 
 @media screen and (min-width: 768px) {
   /* header */
