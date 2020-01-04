@@ -49,28 +49,18 @@ nav a:first-child {
 
 /*portfolio*/
 
-.work {
-  margin-top: 10px;
-  margin-bottom: 36px;
+.card-body {
+  background-color: #4aaaa5;
 }
 
-.work h6 {
-  position: absolute;
-  bottom: 55px;
-  width: 94%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
+.card-title {
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
 }
 
 /*footer*/
 
-#footer-cont {
+#page-footer {
   z-index: 98;
   width: 100%;
   overflow: auto;
