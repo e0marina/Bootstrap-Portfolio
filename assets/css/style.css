@@ -49,9 +49,14 @@ nav a:first-child {
 
 /*portfolio*/
 
+.work {
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
 .work h6 {
   position: absolute;
-  bottom: 20px;
+  bottom: 55px;
   width: 94%;
   padding: 15px;
   margin-bottom: 0;
@@ -61,11 +66,6 @@ nav a:first-child {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
-
-.work {
-  margin-top: 10px;
-  margin-bottom: 200px;
 }
 
 /*footer*/
