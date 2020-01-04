@@ -72,9 +72,6 @@ nav a:first-child {
 
 .work {
   margin-top: 10px;
-}
-
- {
   margin-bottom: 200px;
 }
 
@@ -110,8 +107,8 @@ h3 {
 
 #main-cont {
   margin-bottom: 200px;
-  }
 }
+
 /* About Me */
 #about-para {
   margin-top: 10px;
@@ -121,10 +118,9 @@ h3 {
   color: #777777;
 }
 
-
-
+/*
 @media screen and (min-width: 400px) {
-  /* header */
+  /* header 
   #header-cont {
     width: 100%;
     padding: 0px;
@@ -156,7 +152,7 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-  /* header */
+  /* header 
 
   #header-cont {
     height: auto;
@@ -191,7 +187,7 @@ h3 {
 }
 
 @media screen and (min-width: 992px) {
-  /* header */
+  /* header 
   #masthead {
     position: relative;
   }
@@ -207,7 +203,7 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
-  /* header */
+  /* header 
   #masthead {
     position: relative;
   }
@@ -218,3 +214,4 @@ h3 {
     margin-left: 0;
   }
 }
+*/
