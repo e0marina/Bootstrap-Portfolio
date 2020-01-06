@@ -44,29 +44,32 @@
 
       <form>
         <div class="form-group">
-          <label for="formGroupExampleInput">Example label</label>
+          <label for="name">Name</label>
           <input
             type="text"
             class="form-control"
-            id="formGroupExampleInput"
-            placeholder="Example input placeholder"
+            id="name"
+            placeholder="John Smith"
+            required="required"
           />
         </div>
         <div class="form-group">
-          <label for="formGroupExampleInput2">Another label</label>
+          <label for="email">Email</label>
           <input
-            type="text"
+            type="email"
             class="form-control"
-            id="formGroupExampleInput2"
-            placeholder="Another input placeholder"
+            id="email"
+            placeholder="example@gmail.com"
+            required="required"
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label for="message">Message</label>
           <textarea
             class="form-control"
-            id="exampleFormControlTextarea1"
+            id="message"
             rows="3"
+            required="required"
           ></textarea>
         </div>
         <div class="col-auto">
@@ -75,7 +78,7 @@
       </form>
     </div>
 
-    <footer id="page-footer">
+    <footer class="fixed-bottom" id="page-footer">
       <div class="container" id="footer-cont">
         <div class="row">
           <div class="col-12">
